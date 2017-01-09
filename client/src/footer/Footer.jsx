@@ -1,3 +1,5 @@
+import './footer.css'
+
 /**
 * @desc Ce component permet d'intégrer facilement le module sidenav de materialize
 */
