@@ -1,0 +1,11 @@
+
+.btn-floating{
+	position: absolute;
+	float: right;
+}
+#containbtn{
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: flex-end;
+}
