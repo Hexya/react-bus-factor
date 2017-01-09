@@ -8,7 +8,7 @@ class Grid extends React.Component {
 
   constructor(props) {
     super(props)
-    this.state = {names : ['aviron','badmington','basketball','bobsleigh','equitation','football', 'hockey', 'natation', 'petanque', 'surf', 'ski', 'tennis', ]}
+    this.state = {names : ['aviron','badmington','basketball','bobsleigh','equitation','football', 'hockey', 'natation', 'petanque',' ski','surf', 'tennis', ]}
   }
 
   // Le HTML qui sera incorporé à chaque fois que <Grid /> est appelé
