@@ -1,3 +1,4 @@
+import "./SideNav.css";
 /**
 * @desc Ce component permet d'intégrer facilement le module sidenav de materialize
 */
@@ -29,7 +30,9 @@ class SideNav extends React.Component {
           <li><a className="subheader">Subheader</a></li>
           <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
-        <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
+        <div id="containbtn">
+         <a href="#" data-activates="slide-out" className="btn-floating btn-large waves-effect waves-light red button-collapse "><i className="material-icons">add</i></a>
+      </div>
       </div>
     )
   }
